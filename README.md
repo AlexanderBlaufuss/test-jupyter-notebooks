@@ -6,7 +6,11 @@
 
 ## Execution
 
-Navigate to the directory of `test_notebook.py` and run `pytest` from the command-line.
+Navigate to the directory of `test_notebook.py` and run `pytest --tb=no` from the command-line.
+
+The option `--tb=no` hides the traceback from the notebook.
+
+The option `-v` and `-vv` increase the verbosity of pytest.
 
 
 

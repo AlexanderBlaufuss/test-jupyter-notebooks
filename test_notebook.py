@@ -17,7 +17,6 @@ def test_nb(notebook):
         ep.preprocess(nb, {'metadata': {'path': './'}})
 
     except CellExecutionError:
-        print('Error')
         raise
 
 
